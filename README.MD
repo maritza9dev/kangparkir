@@ -15,3 +15,22 @@ sistem dan tidak dipilih bebas oleh pengunjung.
 ## Rumusan Masalah
 1. Lahan parkir yang masih berantakan
 2. Hasil transaksi tidak tertata
+## Batasan
+1. Prototipe CLI.
+Sistem dibangun dengan Python dan hanya memiliki antarmuka CLI, tanpa antarmuka
+grafis.
+2. Input kendaraan manual (dummy).
+Input kendaraan otomatis (dummy). Jika sistem gagal, plat nomor dimasukkan manual
+oleh operator. Jika kelak terhubung IoT, plat yang kotor atau sulit dibaca dan jaringan
+yang tidak stabil dapat menjadi kendala.
+3. Pembayaran hanya simulasi.
+Pembayaran nyata tidak diimplementasikan; sistem hanya mensimulasikan tap KUE.
+4. Di luar lingkup.
+Deteksi kendaraan langsung dan kontrol palang pintu tidak dikerjakan.
+5. Posisi parkir terikat pencatatan.
+Kendaraan tidak dapat berpindah tempat parkir sebebasnya karena posisinya sudah
+tercatat di sistem.
+6. Waktu pengembangan.
+Proyek dibatasi sekitar tiga bulan dengan metodologi Agile.
+7. Tarif tidak ditanam di kode.
+Tarif, batas waktu, dan denda harus dapat diubah lewat menu pengaturan.
